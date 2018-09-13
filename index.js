@@ -4,7 +4,7 @@ const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 let coins = require("./coins.json");
-let statuses = ['>help', `${bot.guilds.size} servers`, 'you'];
+
 
 fs.readdir("./commands/", (err, files) => {
 
@@ -28,7 +28,7 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
   setInterval(function() {
-    
+    let statuses = ['>help', `${bot.guilds.size} servers`, 'you'];
     let status = statuses[Math.floor(Math.random()*statuses.length)];
     
     bot.user.setActivity( `${status}`, {type: "WATCHING"});
