@@ -1,5 +1,5 @@
 {
-  "name": "Vince the Bot",
+  "name": "vincethebot",
   "version": "1.0.0",
   "description": "My second attempt at making a bot.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test:": "echo \"Error: no test specified\" && exit 1"
     "start:" "node index.js"
   },
-  "author": "Vince the Animator",
+  "author": "vincetheanimator",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.4.2",
