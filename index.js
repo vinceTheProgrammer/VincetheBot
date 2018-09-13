@@ -5,8 +5,6 @@ const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 let coins = require("./coins.json");
 
-var toke = process.env.BOT_TOKEN
-
 fs.readdir("./commands/", (err, files) => {
 
   if(err) console.log;
@@ -79,4 +77,4 @@ bot.on("message", async message => {
 });
 
 
-bot.login(toke);
+bot.login('NDg1MzA3Mzg5Njg0NDgyMDQ5.DnsAww.R03tjBHBrkCM7nTcgnqubXyzEi0');
