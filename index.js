@@ -33,7 +33,7 @@ bot.on("ready", async () => {
     
     bot.user.setActivity( `${status}`, {type: "WATCHING"});
     
-    }, 10000)
+    }, 10000);
   
   
   
