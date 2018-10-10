@@ -87,4 +87,4 @@ bot.on("message", async message => {
 });
 
 
-bot.login('NDg1MzA3Mzg5Njg0NDgyMDQ5.DnsAww.R03tjBHBrkCM7nTcgnqubXyzEi0');
+bot.login('https://www.youtube.com/watch?v=RfiQYRn7fBg');
